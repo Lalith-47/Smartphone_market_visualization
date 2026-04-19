@@ -508,4 +508,4 @@ def render_main(src, uploaded_json, dataset_name, chart_type, mode, compare_name
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=8050)
